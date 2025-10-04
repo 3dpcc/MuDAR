@@ -21,10 +21,33 @@ pandas: ```pip install pandas```
 
 ## 😀 Usage
 
+### Prepare Dataset
+
+```shell
+cd intra or inter
+python utils/prepare_data_step_1.py
+python utils/prepare_data_step_2.py
+```
+
 ### Training
+
+```shell
+cd intra or inter
+python train.py
+```
 
 ### Testing
 
+```shell
+# prepare test data
+cd intra or inter
+python utils/prepare_test.py
+
+# test
+cd intra or inter
+python encoder.py
+python decoder.py
+```
 
 ## Authors
 These files are provided by Hangzhou Normal University [3DPCC](https://github.com/3dpcc) and Nanjing University  [Vision Lab](https://vision.nju.edu.cn/). Please contact us (zhujiahao23@stu.hznu.edu.cn) if you have any questions.
