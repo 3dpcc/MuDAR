@@ -1,0 +1,28 @@
+exp_name : dynamic_kitti
+
+train_path: /zhu/data/SemanticKITTI/train/process_lidar_rpcc_1024_dynamic
+
+ckpt_path: logs/dynamic_kitti/version_0/checkpoints/model-epoch=24-step=384000.ckpt
+
+lr        : 0.00001
+epoch     : 25
+batch_size: 12
+num_worker: 8
+
+log_interval       : 16
+log_on_bar_interval: 16
+
+k: 16
+
+nlevel  : 18
+ntoken  : 256
+noctant : 8
+nlaser  : 64
+nphi    : 2000
+
+ninp    : 512
+nhid    : 512
+nout    : 255
+nhead   : 4
+
+ctx_win: 1024
