@@ -1,8 +1,8 @@
 exp_name : static_nuscenes
 
-train_path: /zhu_disk1/data/NuScenes/train/process_rpcc_pccs_1024_static
+train_path: /zhu/data/nuScenes/train/process_rpcc_pccs_1024_static
 
-ckpt_path: logs/static_nuscenes/version_0/checkpoints/model-epoch=12-step=705000.ckpt
+ckpt_path:
 
 lr        : 0.0001
 epoch     : 25
