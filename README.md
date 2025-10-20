@@ -25,6 +25,8 @@ tqdm: ```pip install tqdm```
 
 pandas: ```pip install pandas```
 
+eastdict: ```pip install eastdict```
+
 ## 😀 Usage
 
 ### Prepare Dataset
