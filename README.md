@@ -25,7 +25,7 @@ tqdm: ```pip install tqdm```
 
 pandas: ```pip install pandas```
 
-eastdict: ```pip install eastdict```
+easydict: ```pip install easydict```
 
 ## 😀 Usage
 
