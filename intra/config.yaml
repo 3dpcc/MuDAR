@@ -1,0 +1,27 @@
+exp_name : static_nuscenes
+
+train_path: /zhu_disk1/data/NuScenes/train/process_rpcc_pccs_1024_static
+
+ckpt_path: logs/static_nuscenes/version_0/checkpoints/model-epoch=12-step=705000.ckpt
+
+lr        : 0.0001
+epoch     : 25
+batch_size: 12
+num_worker: 16
+
+log_interval           : 16
+log_on_bar_interval    : 16
+
+ntoken  : 256
+nlevel  : 16
+noctant : 8
+nlaser  : 32
+nphi    : 2250
+
+ninp    : 512
+nhid    : 512
+nout    : 255
+nhead   : 4
+dropout : 0.0
+
+ctx_win: 1024
